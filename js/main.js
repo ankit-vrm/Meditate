@@ -17,7 +17,7 @@ $(".class").mouseover(function(){
    $(this).find(".cls").css({"box-shadow":"2px 4px 10px #000", "cursor":"pointer", "padding":"2px", "transform":"translateY(-4px)","transition":".2s"})
 });
 $(".class").mouseout(function(){
-   $(this).find(".cls").css({"box-shadow":"none", "cursor":"pointer", "transform":"translateY(0)"})
+   $(this).find(".cls").css({"box-shadow":"none", "cursor":"pointer", "padding":"0", "transform":"translateY(0)"})
 });
 $(".class").click(function(){
     window.location=$(this).find("a").attr("href");
@@ -25,10 +25,10 @@ $(".class").click(function(){
 })
 
 $(".blogs").mouseover(function(){
-   $(this).find(".blog").css({"box-shadow":"2px 4px 10px #000", "cursor":"pointer", "padding":"2px"})
+   $(this).find(".blog").css({"box-shadow":"2px 4px 10px #000", "cursor":"pointer", "padding":"2px", "transform":"translateY(-4px)","transition":".2s"}})
 });
 $(".blogs").mouseout(function(){
-   $(this).find(".blog").css({"box-shadow":"none", "cursor":"pointer", "padding":"0"})
+   $(this).find(".blog").css({"box-shadow":"none", "cursor":"pointer", "padding":"0", "transform":"translateY(0)"})
 });
 $(".blogs").click(function(){
     window.location=$(this).find("a").attr("href");
