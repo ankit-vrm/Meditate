@@ -155,7 +155,6 @@ hr{ margin: 10px 0 !important;}
 
 @media screen and (max-width:768px){
     
-    .custom-nav{}
     .banner-sub{ background-position: center left;}
     .bhead{ font-size: 43px;}
     .bshead{ font-size: 26px; font-weight: 300;}
