@@ -25,10 +25,10 @@ $(".class").click(function(){
 })
 
 $(".blogs").mouseover(function(){
-   $(this).find(".blog").css({"box-shadow":"2px 4px 10px #000", "cursor":"pointer"})
+   $(this).find(".blog").css({"box-shadow":"2px 4px 10px #000", "cursor":"pointer", "padding":"2px"})
 });
 $(".blogs").mouseout(function(){
-   $(this).find(".blog").css({"box-shadow":"none", "cursor":"pointer"})
+   $(this).find(".blog").css({"box-shadow":"none", "cursor":"pointer", "padding":"0"})
 });
 $(".blogs").click(function(){
     window.location=$(this).find("a").attr("href");
